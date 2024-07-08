@@ -11,7 +11,15 @@ Following Steps are done in Automation
    - Enter your name and postal code.
    - Complete the purchase.
 
-  **Browser configurations are not done and It can be achived with CLI command**
+**Browser configurations are not done and It can be achived with CLI command**
   
-  **To run in headless mode: $env:HEADED="1">> dotnet test**
+  - **To run in headless mode:** `$env:HEADED="1">> dotnet test`
+  - **To debug the code:** `await page.PauseAsync();` or CLI Command: `pwsh bin/Debug/net8.0/playwright.ps1 codegen saucedemo.com`
+
+**Reference**
+
+- https://playwright.dev/dotnet/docs/intro
+- https://www.youtube.com/watch?v=5i53YLWD_QI&list=PL6tu16kXT9PoUv6HwexX5LPBzzv7QkI9W&pp=iAQB
+
+  
 
